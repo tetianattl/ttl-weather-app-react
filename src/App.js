@@ -7,9 +7,11 @@ export default function App() {
     <div className="App">
       <div className="Container">
         <h1>Weather App</h1>
-        <Weather defaultCity="Kyiv" />
+        <Weather defaultCity="Alicante" />
         <footer>
-          This project was created by Tetiana Tiukhta and is open-sourced on{" "}
+          This project was created by{" "}
+          <a href="https://github.com/tetianattl">Tetiana Tiukhta</a> and is
+          open-sourced on{" "}
           <a
             href="https://github.com/tetianattl/ttl-weather-app-react"
             target="_blank"

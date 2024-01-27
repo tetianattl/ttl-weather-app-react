@@ -4,26 +4,48 @@
     border-radius: 18px;
     margin: 50px auto;
     padding: 30px 15px;
+    font-family: "Shantell Sans", cursive;
 }
 
-.Weather ul {
+.Weather h1 {
+    color: #000000;
+}
+
+.Weather p {
     margin: 0;
     padding: 0;
-}
-
-.Weather li {
     font-size: 16px;
     color: #887782;
     line-height: 24px;
-    font-weight: 500;
+    font-weight: 400;
     list-style: none;
 }
 
+.Weather .weather-app-current-region {
+    margin: 20px 0;
+    padding: 15px 0;
+    line-height: 0.8;
+}
+
 .Weather .city {
-    color: #000000;
     font-size: 38px;
-    font-weight: 900;
-    line-height: 48px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.Weather .country {
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.9;
+}
+
+.Weather .weather-app-details {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #887782;
+    line-height: 24px;
+    font-weight: 400;
+    opacity: 0.9;
 }
 
 .Weather .img {
