@@ -6,13 +6,6 @@
     padding: 30px 15px;
 }
 
-.Weather h1 {
-    color: #000000;
-    font-size: 38px;
-    font-weight: 900;
-    line-height: 48px;
-}
-
 .Weather ul {
     margin: 0;
     padding: 0;
@@ -24,6 +17,13 @@
     line-height: 24px;
     font-weight: 500;
     list-style: none;
+}
+
+.Weather .city {
+    color: #000000;
+    font-size: 38px;
+    font-weight: 900;
+    line-height: 48px;
 }
 
 .Weather .img {
