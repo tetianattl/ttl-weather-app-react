@@ -11,55 +11,49 @@
     color: #000000;
 }
 
-.Weather p {
+.Weather canvas {
+    width: 88px;
+    height: 88px;
+}
+
+.Weather .weather-app-current-region {
+    margin: 20px 0;
+    padding: 15px 10px;
+    line-height: 0.8;
+    font-weight: 400;
+}
+
+.Weather .city {
+    font-size: 38px;
     margin: 0;
+}
+
+.Weather .country {
+    font-size: 10px;
+    opacity: 0.9;
+}
+
+.Weather .weather-app-details {
+    margin: 10px 0;
     padding: 0;
     font-size: 16px;
     color: #887782;
     line-height: 24px;
     font-weight: 400;
     list-style: none;
-}
-
-.Weather .weather-app-current-region {
-    margin: 20px 0;
-    padding: 15px 0;
-    line-height: 0.8;
-}
-
-.Weather .city {
-    font-size: 38px;
-    font-weight: 400;
-    margin: 0;
-}
-
-.Weather .country {
-    font-size: 16px;
-    font-weight: 400;
     opacity: 0.9;
 }
 
-.Weather .weather-app-details {
-    margin: 10px 0;
-    font-size: 16px;
-    color: #887782;
-    line-height: 24px;
-    font-weight: 400;
-    opacity: 0.9;
+.Weather .weather-app-temperature-container {
+    display: flex;
+    margin-top: 170px;
+    color: #632b4f;
+    line-height: 78px;
 }
 
-.Weather .img {
-    width: 88px;
-    height: 88px;
+.Weather .WeatherTemperature {
+    font-size: 30px;
+    margin-top: -20px;
+    margin-left: 10px;
 }
 
-.Weather .temperature {
-    font-size: 88px;
-    line-height: 88px;
-    font-weight: bold;
-}
-
-.Weather .unit {
-    font-size: 28px;
-    top: -44px;
-}
