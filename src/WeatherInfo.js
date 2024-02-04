@@ -10,7 +10,6 @@ export default function WeatherInfo(props) {
         <div className="weather-app-current-region col-6">
           <h1>
             <span className="city">{props.data.city}</span>
-            <br />
             <span className="country">{props.data.country}</span>
           </h1>
           <div className="weather-app-details">
@@ -19,9 +18,13 @@ export default function WeatherInfo(props) {
               <span>{props.data.description}</span>
             </div>
             <br />
-            <span>Humidity: {props.data.humidity}%</span>
+            <span>Humidity: </span>
+            <span className="weather-app-details-1">
+              {props.data.humidity}%
+            </span>
             <br />
-            <span>Wind: {props.data.wind}km/h</span>
+            <span>Wind: </span>
+            <span className="weather-app-details-1">{props.data.wind}km/h</span>
           </div>
         </div>
         <div className="weather-app-temperature-container col-6">
